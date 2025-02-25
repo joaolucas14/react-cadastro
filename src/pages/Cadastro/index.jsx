@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import api from "../../services/api.js";
-
 export default function Cadastro() {
   const nameRef = useRef();
   const emailRef = useRef();
