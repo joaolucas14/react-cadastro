@@ -28,18 +28,21 @@ export default function Cadastro() {
         <input
           type="text"
           placeholder="Nome"
+          required
           ref={nameRef}
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none"
         />
         <input
           type="email"
           placeholder="Email"
+          required
           ref={emailRef}
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none"
         />
         <input
           type="password"
           placeholder="Senha"
+          required
           ref={passwordRef}
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none"
         />
